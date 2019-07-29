@@ -1,0 +1,244 @@
+html,
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif !important;
+  	padding: 20px;
+	padding-top: -30px !important;
+	;
+}
+
+
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.titulo h3{
+	font-family:  'Open Sans', sans-serif !important;
+	color: #4F4F4F;
+}
+
+.background{
+  background-image: url("../img/bg-hexagons-white.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.agendar-botao{
+	text-shadow: 2px 2px 3px black;
+	color: white;
+	font-size: 12pt;
+	z-index: 1;
+	width: 100%;
+	margin-bottom: 25px;
+	float: left;
+	position: relative;
+}
+.logo{
+	z-index: 1;
+	width: 190px;
+	height: 190px;
+	display: inline;
+	margin-top: -20px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	position: relative;
+	background-color: transparent;
+	border: none;
+}
+
+.cabecalho-superior{
+	color: white;
+	text-shadow: 1.5px 1.5px 3px black;
+	padding-top: 0px;
+	padding-right: 4%;
+	background-color: transparent;
+  	height: 35px;
+	float: right;
+
+}
+
+.cabecalho-superior button{
+	font-family:  'Open Sans', sans-serif !important;
+	color: #ff3300;
+	text-shadow: 1.5px 1.5px 3px rgba(255, 255, 255, 0.2);
+	font-size: 16px;
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 80px;
+	height: 30px;
+	border-color: #ff3300;
+	border-radius: 3px;
+}
+.cabecalho-superior h3{
+	font-family:  'Open Sans', sans-serif !important;
+	font-weight: bolder;
+}
+
+/* MENU LATERAL */
+.menu{
+	z-index: 1;
+	width: 100%;
+	float: left;
+	position: relative;
+	height: 45px;
+	border: 0px;
+	background-color: rgba(240,240,250,0.9);
+}
+.menu button{
+	color: #4F4F4F;
+	font-size: 12pt !important;
+	height: 60px;
+	font-family:  'Verdana', sans-serif !important;
+	text-align: left;
+	margin-bottom: 1000px !important;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	background-color: rgba(240,240,250,0.9);
+	position: absolute;
+    border-radius: 0px 0px 3px 3px
+}
+
+.menu button:hover{
+	background-color: #c0c0c0;
+}
+
+.menu img{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 7px;
+}
+
+.fundo{
+    margin-top: -40px;
+    background-color: transparent;
+    box-shadow: transparent;
+    border: none;
+    padding: 0px;
+}
+.conteudo{
+    height: 100%;
+    background-color: #fffbfd;
+    margin-top: 190px;
+    background-color: rgba(240,240,250,0.9);
+}
+
+.titulo{
+    background-color: transparent;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+
+.linha-horizontal{
+	background-color: #C0C0C0;
+	width: 100%;
+	height: 1px;
+	margin-bottom: 25px;
+}
+
+/* CARD COM ELEMENTOS DE PESQUISA */
+
+.card{
+	font-family: 'Open Sans', sans-serif !important;
+	color: #4F4F4F !important;
+	margin-bottom: 30px;
+	background-color: transparent;
+}
+.corpo-cartao{
+	border-radius: 0px 0px 3px 3px !important;
+	background-color: rgba(245, 245, 255, 1);
+}
+.cabecalho-cartao{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #4169E1;
+	border-radius: 3px 3px 0px 0px !important;
+
+}
+.cabecalho-cartao h1{
+	font-family: 'Open Sans', sans-serif !important;
+	color: white !important;
+	font-size: 12pt;
+	font-weight: bold;
+
+}
+.corpo-cartao label{
+	margin-right: 10px !important;
+	font-weight: normal;
+}
+.botao-pesquisar{
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 12pt;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	position: relative;
+	margin-top: 20px;
+}
+/* DATA GRID */
+
+.table{
+	border-color: red !important;
+	background-color: rgba(245, 245, 255, 1);
+}
+
+.table thead{
+	background-color: #4169E1;
+	font-family: 'Open Sans', sans-serif !important;
+	color: white;
+	border-color:  rgb(150, 150, 150) !important;
+}
+
+.acoes{
+    margin-left: 10px;
+}
+
+.table img{
+	height: 25px;
+	width: 25px;
+}
+.botao-visualizar{
+
+
+}
+
+.botao-alterar{
+
+}
+
+.botao-excluir{
+    float: right;
+}
+
+.botao-adicionar{
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 12pt;
+	float: left;
+	position: absolute;
+}
+.paginador{
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 11pt;
+	float: right;
+	position: relative;
+	margin-top: -20px;
+}
+.paginador li{
+	 color: #4F4F4F !important;
+}

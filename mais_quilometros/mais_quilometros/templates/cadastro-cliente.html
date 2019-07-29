@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Title</title>
+</head>
+<body class="background">
+<div class="fundo">
+    <img src="img/logo.png" class="rounded mx-auto d-block" style="margin-top: -90px">
+    <form>
+        <div class="card cartao">
+            <div class="card-header cabecalho-cartao">Dados Pessoais</div>
+            <div class="corpo-cartao card-body">
+                <div class="form-group row">
+                    <label for="nome" class=" col-form-label">Nome: </label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-sm" id="nome">
+                    </div>
+                    <label for="cpf" class="col-form-label">CPF: </label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control form-control-sm" id="cpf">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="nascimento" class="col-form-label">Nascimento: </label>
+                    <div class="col-sm-4">
+                        <input type="date" class="form-control form-control-sm" id="nascimento">
+                    </div>
+                    <label class="col-form-label">Sexo: </label>
+                    <div class="col-sm-4">
+                    <select class="form-control form-control-sm">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cartao card">
+            <div class="cabecalho-cartao card-header">Endereço</div>
+            <div class="corpo-cartao card-body">
+                <div class="form-group row">
+                    <label for="cep" class=" col-form-label">CEP: </label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control form-control-sm" id="cep">
+                    </div>
+                    <label for="estado" class=" col-form-label">Estado: </label>
+                    <div class="col-sm-2">
+                        <select id="estado" class="form-control form-control-sm">
+
+                        </select>
+                    </div>
+                    <label for="cidade" class=" col-form-label">Cidade: </label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control form-control-sm" id="cidade">
+                    </div>
+                    <label for="bairro" class="col-form-label">Bairro: </label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control form-control-sm" id="bairro">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="logradouro" class=" col-form-label">Logradouro: </label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control form-control-sm" id="logradouro">
+                    </div>
+                    <label for="numerocasa" class=" col-form-label">Número: </label>
+                    <div class="col-sm-1">
+                        <input type="text" class="form-control form-control-sm" id="numerocasa">
+                    </div>
+                    <label for="complemento" class=" col-form-label">Complemento: </label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control form-control-sm" id="complemento">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cartao card">
+            <div class="cabecalho-cartao card-header">Telefone</div>
+            <div class="corpo-cartao card-body">
+                <div class="form-group row">
+                    <label for="tipo" class=" col-form-label">Tipo: </label>
+                    <div class="col-sm-2">
+                        <select id="tipo" class="form-control form-control-sm">
+                            <option>Celular</option>
+                            <option>Residencial</option>
+                            <option>Comercial</option>
+                        </select>
+                    </div>
+                    <label for="numerotelefone" class=" col-form-label">Número: </label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control form-control-sm" id="numerotelefone">
+                    </div>
+                    <div class="col-sm-1">
+                        <button type="button" class="adicionar-cadastro btn btn-danger">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cartao card">
+            <div class="cabecalho-cartao card-header">Informações de Acesso</div>
+            <div class="corpo-cartao card-body">
+                <div class="form-group row">
+                    <label for="email" class=" col-form-label">E-mail: </label>
+                    <div class="col-sm-4">
+                        <input type="email" class="form-control form-control-sm" id="email">
+                    </div>
+                    <label for="rep-email" class=" col-form-label">Repita o E-mail: </label>
+                    <div class="col-sm-4">
+                        <input type="email" class="form-control form-control-sm" id="rep-email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="senha" class=" col-form-label">Senha: </label>
+                    <div class="col-sm-3">
+                        <input type="password" class="form-control form-control-sm" id="senha">
+                    </div>
+                    <label for="rep-senha" class=" col-form-label">Repita a Senha: </label>
+                    <div class="col-sm-3">
+                        <input type="password" class="form-control form-control-sm" id="rep-senha">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cartao-botao form-group row">
+            <input type="submit" class="btn btn-primary" value="Cadastrar">
+            <button type="button" class="botao-cancelar btn btn-danger" >Cancelar</button>
+        </div>
+    </form>
+</div>
+</div>
+</body>
+</html>
